@@ -6,7 +6,7 @@ it('should calculate the monthly rate correctly', function () {
     years: 8,
     rate: 5.8
   };
-  expect(calculateMontlhyPayment(values)).toEqual('130.44');
+  expect(calculateMonthlyPayment(values)).toEqual('130.44');
 });
 
 
